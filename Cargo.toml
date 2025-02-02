@@ -11,7 +11,7 @@ repository = "https://github.com/datafusion-contrib/datafusion-functions-json/"
 rust-version = "1.80.1"
 
 [dependencies]
-datafusion = { git = "https://github.com/lakehq/datafusion.git", rev = "68e372f", default-features = false }
+datafusion = { git = "https://github.com/apache/datafusion.git", rev = "68e372f", default-features = false }
 # Jitter has a dependency on pyo3, which needs to match the version used in DataFusion
 jiter = "0.8"
 paste = "1"
