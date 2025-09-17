@@ -14,7 +14,7 @@ rust-version = "1.85.1"
 # https://github.com/pydantic/jiter/blob/v0.10.0/Cargo.toml
 [dependencies]
 datafusion = { version = "50", default-features = false }
-jiter = "0.10.0"
+jiter = "0.10"
 log = "0.4"
 paste = "1"
 
